@@ -8,4 +8,4 @@ Use YouTube watch history to determine your simp level
 - Run `pip install -r requirements.txt`
 - Run `python main.py`
 
-![CLI Screenshot](https://cdn.adriancastro.dev/eOHwGXI.png)
+![CLI Screenshot](https://cdn.adriancastro.dev/X00n2jU.png)
