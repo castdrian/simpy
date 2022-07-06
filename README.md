@@ -6,6 +6,6 @@ Use YouTube watch history to determine your simp level
 - Download the file to your computer
 - Place the file in the same directory as this script
 - Run `pip install -r requirements.txt`
-- Run `python simpy.py`
+- Run `python main.py`
 
 ![CLI Screenshot](https://cdn.adriancastro.dev/mvD4ZXi.png)
