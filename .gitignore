@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Watch history
+watch-history.json
+
+Include
+Scripts
+pyvenv.cfg
 # C extensions
 *.so
 
