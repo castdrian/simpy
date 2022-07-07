@@ -1,6 +1,6 @@
 from collections import Counter
 from datetime import timedelta
-from dateutil import parser
+from dateutil.parser import isoparse
 from json import loads
 from sys import exit
 
@@ -12,7 +12,7 @@ except FileNotFoundError:
 	
 last_month = []
 for video in data:
-	if 'subtitles' in video and parser.isoparse(video['time']).date() >= parser.isoparse(data[0]['time']).date() - timedelta(days=31):
+	if 'subtitles' in video and isoparse(video['time']).date() >= isoparse(data[0]['time']).date() - timedelta(days=31):
 			last_month.append(video['subtitles'][0]['name'])
 
 data = Counter(last_month).most_common()[:15]
